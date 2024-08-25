@@ -112,4 +112,8 @@ client.commands.set("beep", {
   }
 });
 
-client.login(process.env.token);
+client.on('ready',() => {
+  let saif = client.channels.cache.find(channel => channel.id === '1046359582643073105')
+  if(!saif) return;
+  saif.send('**__I\'m ready now__**')
+});
