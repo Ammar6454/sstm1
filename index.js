@@ -14,7 +14,7 @@ const { registerCommands, registerEvents } = require('./utils/registry');
 const config = require('./slappey.json');
 const mongoose = require('mongoose');
 const { QuickDB } = require("quick.db");
-const token = 'MTEwNDQyNzM1NTE5NzQyNzc2Mg.GeJBmJ.tZjE4zbTRbo5mnQp6jhy3z7ummz5R9xgWdeP00';
+const token = "MTI3NjgxNDIxMTYwNzE2Njk4OA.G78PEc.HAogxL9pBlqAu8o_CEX_SGoweAj8vC18krnjbU";
 const db1 = new QuickDB();
 
 (async () => {
@@ -112,4 +112,4 @@ client.commands.set("beep", {
   }
 });
 
-client.login("MTI2NjE1NjY1MzgwNDI1NzMyMA.GR6Sfz.JbHgJ-FEz8MTK5cIQ3hFteiU7KzM5V57MYPWqw");
+client.login("token");
