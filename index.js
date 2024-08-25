@@ -112,4 +112,4 @@ client.commands.set("beep", {
   }
 });
 
-client.login("token");
+client.login(process.index.token);
